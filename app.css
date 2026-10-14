@@ -1,0 +1,10 @@
+.di { display: flex; flex-direction: column; gap: 14px; height: 100%; }
+.di section { display: flex; flex-direction: column; gap: 8px; }
+.di-h { font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.4px; opacity: 0.7; }
+.di-row { display: flex; align-items: center; gap: 10px; }
+.di-row input { width: 56px; padding: 6px; border: 1px solid var(--muted-bg, #444); border-radius: 6px; background: var(--surface, #1e1e1e); color: var(--text, #eee); }
+.di button { padding: 7px 16px; border: 0; border-radius: 7px; background: var(--accent2, #4a90e2); color: #fff; cursor: pointer; font-weight: 600; align-self: flex-start; }
+.di-out { font-size: 1.8rem; min-height: 1.8rem; }
+.di-out small { font-size: 0.8rem; opacity: 0.7; }
+#di-list { height: 72px; resize: none; padding: 8px; border: 1px solid var(--muted-bg, #444); border-radius: 7px; background: var(--surface, #1e1e1e); color: var(--text, #eee); }
+.di-picked { font-size: 1.1rem; font-weight: 700; color: var(--accent2, #4a90e2); min-height: 1.1rem; }

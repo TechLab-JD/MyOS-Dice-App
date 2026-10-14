@@ -1,0 +1,19 @@
+<div class="app-window" id="DiceApp">
+  <div class="app-header"><span class="app-title">🎲 Dice & Picker</span><div class="app-controls"><button class="minimize-btn">–</button><button class="close-btn">×</button></div></div>
+  <div class="app-content">
+    <div class="di">
+      <section>
+        <div class="di-h">Dice</div>
+        <div class="di-row"><label><input id="di-n" type="number" min="1" max="10" value="2"> dice</label><button id="di-roll">Roll</button></div>
+        <div id="di-out" class="di-out">🎲 🎲</div>
+      </section>
+      <section>
+        <div class="di-h">Random picker</div>
+        <textarea id="di-list" placeholder="One option per line…"></textarea>
+        <button id="di-pick">Pick one</button>
+        <div id="di-picked" class="di-picked"></div>
+      </section>
+    </div>
+  </div>
+  <div class="resize-handle"></div>
+</div>
